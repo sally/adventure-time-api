@@ -1,0 +1,124 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "slug": "finn",
+            "display_name": "Finn",
+            "full-name": "Finn Mertens",
+            "species": "Human",
+            "sex": "Male",
+            "quotes": [
+                "You don't need a mirror to know you look good. You're beautiful on the inside.",
+                "You're letting your brain dial turn your fear volume up.",
+                "I say \"creepy\" is just another label we use to distance ourselves from stuff we don't understand. Or reminds us of something in ourselves that we're not comfortable with.",
+                "I wonder if being a sad loner gives you more raw materials to form song ideas. Is that where creativity comes from? From sad biz?",
+                "Homies help homies. Always."
+            ]
+        },
+        {
+            "id": 2,
+            "slug": "jake",
+            "display_name": "Jake",
+            "full-name": "Jake the Dog",
+            "species": "Dog/Shape-shifter Hybrid",
+            "sex": "Male",
+            "quotes": [
+                "You're getting all hung up on imaginary problems. You gotta focus on what's real, man!",
+                "Suckin' at something is the first step to being sorta good at something.",
+                "To live life, you need problems. If you get everything you want the minute you want it, then what's the point of livin'?"
+            ]
+        },
+        {
+            "id": 3,
+            "slug": "bmo",
+            "display_name": "BMO",
+            "full-name": "Be More",
+            "species": "MO Series Mk. II 110V-60Hz Core-System-Ready Kompy-Compatible model",
+            "sex": "N/A",
+            "quotes": [
+                "When bad things happen, I know you want to believe they are a joke, but sometimes life is scary and dark. That is why we must find the light.",
+                "Maybe the lesson is that when you are grown, you won't ever be able to tell if everything is going totally haywire, or maybe if truly everything is perfectly fine.",
+                "What's real? Your eyeballs think the sky is blue, but that's just sun rays farting apart in the barf of our atmosphere. The sky is black."
+            ]
+        },
+        {
+            "id": 4,
+            "slug": "princess-bubblegum",
+            "display_name": "Princess Bubblegum",
+            "full-name": "Bonnibel Bubblegum",
+            "species": "Gum Golem",
+            "sex": "Female",
+            "quotes": [
+                "Responsibility demands sacrifice.",
+                "You can't break royal promises! Never, ever, never, no matter what, forever!",
+                "People get built different. We don't need to figure it out, we just need to respect it."
+            ]
+        },
+        {
+            "id": 5,
+            "slug": "marceline",
+            "display_name": "Marceline",
+            "full-name": "Marceline the Vampire Queen",
+            "species": "Vampire/Demon Hybrid",
+            "sex": "Female",
+            "quotes": [
+                "When I became a vampire, I was just a messed up kid. Now it's a thousand years later, and I'm still messed up!",
+                "I don't think there are bad people. I think good people do bad stuff sometimes, and that's bad. But if you just do it once, that's a mistake. And that's not bad. I think.",
+                "Everything repeats over and over again. No one learns anything, because no one lives long enough to see the pattern."
+            ]
+        },
+        {
+            "id": 6,
+            "slug": "ice-king",
+            "display_name": "Ice King",
+            "full-name": "Simon Petrikov",
+            "species": "Ice Wizard",
+            "sex": "Male",
+            "quotes": [
+                "Y'all are just hating on my steez. I'm not listening to haters.",
+                "What?! No one commands the Ice King to make no sandwich!",
+                "When you have stanky old wizard eyes like me, sometimes you see things that are real, and other times it's like, crazy, crazy, crazy, in your face all the time. (sighs) All the time."
+            ]
+        },
+        {
+            "id": 7,
+            "slug": "lsp",
+            "display_name": "LSP",
+            "full-name": "Lumpy Space Princess",
+            "species": "Lumpy Space Person",
+            "sex": "Female",
+            "quotes": [
+                "WHATEVER, IT'S 2009!",
+                "I know I mess things up sometimes, but I'm really trying!",
+                "I'm doing so awesome on my own. Like, right now, I found this can of beans.",
+                "Oh nah. I am not getting eaten by zombies tonight."
+            ]
+        },
+        {
+            "id": 8,
+            "slug": "lady-rainicorn",
+            "display_name": "Lady Rainicorn",
+            "full-name": "Lady Rainicorn",
+            "species": "Rainicorn",
+            "sex": "Female",
+            "quotes": [
+                "Oh sweet potato, I love you because you're an idiot. You make me feel like a genius.",
+                "Don't make me laugh. You are not even worth our princess' disdain.",
+                "Before Jake went missing, I told him his Vietnamese noodles were too tough. Why did I say such a thing? What if something bad happens to him? Our last conversation was about how his noodles tasted bad..."
+            ]
+        },
+        {
+            "id" : 9,
+            "slug": "flame-princess",
+            "display_name": "Flame Princess",
+            "full-name": "Phoebe",
+            "species": "Flame Person",
+            "sex": "Female",
+            "quotes": [
+                "Hold on, bro. Perhaps it is a non-flameish custom unknown to us.",
+                "It's only okay if the person making the fun is someone I'm cool with! And they do it in a respectful and knowing way!",
+                "Uh, do we need a torch? I'm sorta made of fire."
+            ]
+        }
+    ]
+}
