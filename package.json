@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/sally/adventure-time-api#readme",
   "dependencies": {
+    "clone": "^2.1.2",
     "express": "^4.17.1",
     "json-server": "^0.16.0"
   }
