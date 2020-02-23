@@ -1,7 +1,7 @@
 {
     "characters": [
         {
-            "id": 1,
+            "id": 0,
             "slug": "finn",
             "display_name": "Finn",
             "full-name": "Finn Mertens",
@@ -17,7 +17,7 @@
             "sprite": "https://i.imgur.com/zLEMgTB.png"
         },
         {
-            "id": 2,
+            "id": 1,
             "slug": "jake",
             "display_name": "Jake",
             "full-name": "Jake the Dog",
@@ -31,7 +31,7 @@
             "sprite": "https://i.imgur.com/oOuaFDI.png"
         },
         {
-            "id": 3,
+            "id": 2,
             "slug": "bmo",
             "display_name": "BMO",
             "full-name": "Be More",
@@ -45,7 +45,7 @@
             "sprite": "https://i.imgur.com/saWFJ90.png"
         },
         {
-            "id": 4,
+            "id": 3,
             "slug": "princess-bubblegum",
             "display_name": "Princess Bubblegum",
             "full-name": "Bonnibel Bubblegum",
@@ -59,7 +59,7 @@
             "sprite": "https://i.imgur.com/KYiPIt4.png"
         },
         {
-            "id": 5,
+            "id": 4,
             "slug": "marceline",
             "display_name": "Marceline",
             "full-name": "Marceline the Vampire Queen",
@@ -73,7 +73,7 @@
             "sprite": "https://i.imgur.com/L2bWMYR.png"
         },
         {
-            "id": 6,
+            "id": 5,
             "slug": "ice-king",
             "display_name": "Ice King",
             "full-name": "Simon Petrikov",
@@ -87,7 +87,7 @@
             "sprite": "https://i.imgur.com/nCn1nxn.png"
         },
         {
-            "id": 7,
+            "id": 6,
             "slug": "lsp",
             "display_name": "LSP",
             "full-name": "Lumpy Space Princess",
@@ -102,7 +102,7 @@
             "sprite": "https://i.imgur.com/2LNeGHR.png"
         },
         {
-            "id": 8,
+            "id": 7,
             "slug": "lady-rainicorn",
             "display_name": "Lady Rainicorn",
             "full-name": "Lady Rainicorn",
@@ -116,7 +116,7 @@
             "sprite": "https://i.imgur.com/ux9LH2p.png"
         },
         {
-            "id" : 9,
+            "id" : 8,
             "slug": "flame-princess",
             "display_name": "Flame Princess",
             "full-name": "Phoebe",
