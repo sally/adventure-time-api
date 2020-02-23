@@ -3,8 +3,12 @@ const clone = require('clone');
 const data = require('./data.json');
 
 const app = jsonServer.create();
+
 app.all('*', (req, res, next) => {
   if (req.method === 'GET') {
+    if (req.path === '/') {
+      return res.redirect('https://github.com/sally/adventure-time-api');
+    }
     next();
   } else {
     res.sendStatus(403);
@@ -14,7 +18,7 @@ app.all('*', (req, res, next) => {
 const router = jsonServer.router(clone(data));
 router.db._.id = 'slug';
 
-app.use(router);
+app.use('/api/v1', router);
 
 const port = process.env.PORT || 3000;
 
