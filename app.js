@@ -3,6 +3,14 @@ const clone = require('clone');
 const data = require('./data.json');
 
 const app = jsonServer.create();
+app.all('*', (req, res, next) => {
+  if (req.method === 'GET') {
+    next();
+  } else {
+    res.sendStatus(403);
+  }
+});
+
 const router = jsonServer.router(clone(data));
 router.db._.id = 'slug';
 
