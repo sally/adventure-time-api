@@ -1,7 +1,7 @@
 const jsonServer = require('json-server');
 const cors = require('cors');
 const clone = require('clone');
-const data = require('./db/data.json');
+const data = require('../db/data.json');
 
 const app = jsonServer.create();
 
@@ -12,7 +12,7 @@ app.all('*', cors(), (req, res, next) => {
     }
     next();
   } else {
-    res.sendStatus(403);
+    return res.sendStatus(403);
   }
 });
 
@@ -21,8 +21,4 @@ router.db._.id = 'slug';
 
 app.use('/api/v1', router);
 
-const port = process.env.PORT || 3000;
-
-app.listen(port, () => {
-  console.log(`Express server listening on port ${port}`);
-});
+module.exports = app;
