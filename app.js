@@ -1,7 +1,7 @@
 const jsonServer = require('json-server');
 const cors = require('cors');
 const clone = require('clone');
-const data = require('./data.json');
+const data = require('./db/data.json');
 
 const app = jsonServer.create();
 
