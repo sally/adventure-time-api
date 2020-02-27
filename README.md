@@ -24,8 +24,8 @@ The API will respond to this request with the following object:
 {
   "id": 1,
   "slug": "jake",
-  "display_name": "Jake",
-  "full-name": "Jake the Dog",
+  "displayName": "Jake",
+  "fullName": "Jake the Dog",
   "species": "Dog/Shape-shifter Hybrid",
   "sex": "Male",
   "quotes": [
@@ -78,8 +78,8 @@ None
   {
     "id": 0,
     "slug": "finn",
-    "display_name": "Finn",
-    "full-name": "Finn Mertens",
+    "displayName": "Finn",
+    "fullName": "Finn Mertens",
     "species": "Human",
     "sex": "Male",
     "quotes": [
@@ -94,8 +94,8 @@ None
   {
     "id": 1,
     "slug": "jake",
-    "display_name": "Jake",
-    "full-name": "Jake the Dog",
+    "displayName": "Jake",
+    "fullName": "Jake the Dog",
     "species": "Dog/Shape-shifter Hybrid",
     "sex": "Male",
     "quotes": [
@@ -146,8 +146,8 @@ Returns a character based on a slug parameter.
 {
   "id": 3,
   "slug": "princess-bubblegum",
-  "display_name": "Princess Bubblegum",
-  "full-name": "Bonnibel Bubblegum",
+  "displayName": "Princess Bubblegum",
+  "fullName": "Bonnibel Bubblegum",
   "species": "Gum Golem",
   "sex": "Female",
   "quotes": [
