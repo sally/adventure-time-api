@@ -3,8 +3,8 @@
         {
             "id": 0,
             "slug": "finn",
-            "display_name": "Finn",
-            "full-name": "Finn Mertens",
+            "displayName": "Finn",
+            "fullName": "Finn Mertens",
             "species": "Human",
             "sex": "Male",
             "quotes": [
@@ -19,8 +19,8 @@
         {
             "id": 1,
             "slug": "jake",
-            "display_name": "Jake",
-            "full-name": "Jake the Dog",
+            "displayName": "Jake",
+            "fullName": "Jake the Dog",
             "species": "Dog/Shape-shifter Hybrid",
             "sex": "Male",
             "quotes": [
@@ -33,8 +33,8 @@
         {
             "id": 2,
             "slug": "bmo",
-            "display_name": "BMO",
-            "full-name": "Be More",
+            "displayName": "BMO",
+            "fullName": "Be More",
             "species": "MO Series Mk. II 110V-60Hz Core-System-Ready Kompy-Compatible model",
             "sex": "N/A",
             "quotes": [
@@ -47,8 +47,8 @@
         {
             "id": 3,
             "slug": "princess-bubblegum",
-            "display_name": "Princess Bubblegum",
-            "full-name": "Bonnibel Bubblegum",
+            "displayName": "Princess Bubblegum",
+            "fullName": "Bonnibel Bubblegum",
             "species": "Gum Golem",
             "sex": "Female",
             "quotes": [
@@ -61,8 +61,8 @@
         {
             "id": 4,
             "slug": "marceline",
-            "display_name": "Marceline",
-            "full-name": "Marceline the Vampire Queen",
+            "displayName": "Marceline",
+            "fullName": "Marceline the Vampire Queen",
             "species": "Vampire/Demon Hybrid",
             "sex": "Female",
             "quotes": [
@@ -75,8 +75,8 @@
         {
             "id": 5,
             "slug": "ice-king",
-            "display_name": "Ice King",
-            "full-name": "Simon Petrikov",
+            "displayName": "Ice King",
+            "fullName": "Simon Petrikov",
             "species": "Ice Wizard",
             "sex": "Male",
             "quotes": [
@@ -89,8 +89,8 @@
         {
             "id": 6,
             "slug": "lsp",
-            "display_name": "LSP",
-            "full-name": "Lumpy Space Princess",
+            "displayName": "LSP",
+            "fullName": "Lumpy Space Princess",
             "species": "Lumpy Space Person",
             "sex": "Female",
             "quotes": [
@@ -104,8 +104,8 @@
         {
             "id": 7,
             "slug": "lady-rainicorn",
-            "display_name": "Lady Rainicorn",
-            "full-name": "Lady Rainicorn",
+            "displayName": "Lady Rainicorn",
+            "fullName": "Lady Rainicorn",
             "species": "Rainicorn",
             "sex": "Female",
             "quotes": [
@@ -118,8 +118,8 @@
         {
             "id" : 8,
             "slug": "flame-princess",
-            "display_name": "Flame Princess",
-            "full-name": "Phoebe",
+            "displayName": "Flame Princess",
+            "fullName": "Phoebe",
             "species": "Flame Person",
             "sex": "Female",
             "quotes": [
