@@ -1,10 +1,12 @@
 # Adventure Time API
 
-The Adventure Time API is a simple data source that catalogs the main characters of the Cartoon Network series Adventure Time. It is built on [JSON Server](https://github.com/typicode/json-server).
+## Introduction
 
-It was mainly created as a REST API protype for the app [Adventure Time Wisdom](https://github.com/sally/adventure-time-wisdom).
+Adventure Time API is a simple data source that catalogs the main characters of the Cartoon Network series Adventure Time. It was mainly created as a REST API protype for the app [Adventure Time Wisdom](https://github.com/sally/adventure-time-wisdom).
 
-# Getting Started
+This project was built using [JSON Server](https://github.com/typicode/json-server). The sprites returned were ripped from *Adventure Time: Explore the Dungeon Because I Don't Know!* and *Adventure Time: The Secret of the Nameless Kingdom* and provided by [The Spriter's Resource](https://www.spriters-resource.com/).
+
+## Getting Started
 
 Requests can be made with `curl` (or other helper libraries). Note that only `GET` requests are accepted at this time.
 
@@ -12,7 +14,7 @@ Users must prepend all resource calls with the following base URL:
 
 `https://adventure-time-api.herokuapp.com/api/v1/`
 
-## Example
+### Example
 
 Here is an example of how to fetch the resource for the character Jake the Dog.
 
@@ -37,41 +39,41 @@ The API will respond to this request with the following object:
 }
 ```
 
-# Resources
+## Resources
 
-## Characters
+### Characters
 
-### Return all characters
+#### Return all characters
 
 Returns information about eight main characters of Adventure Time.
 
-#### Endpoint
+##### Endpoint
 
 | Method | URL         | Authorization |
 |--------|-------------|---------------|
 | GET    | /characters | None          |
 
-#### Path Parameters
+##### Path Parameters
 
 None
 
-#### Success Response
+##### Success Response
 
 | Status | Description | Format             |
 |--------|-------------|--------------------|
 | 200    | OK          | Array (of objects) |
 
-#### Error Response
+##### Error Response
 
 | Status | Description | Format |
 |--------|-------------|--------|
 | 400    | Bad Request |        |
 
-#### Example Request
+##### Example Request
 
 `curl -X GET -H "Content-Type: application/json" https://adventure-time-api.herokuapp.com/api/v1/characters`
 
-#### Example Success Response
+##### Example Success Response
 
 ```
 [
@@ -108,39 +110,39 @@ None
 ]
 ```
 
-### Fetch one character
+#### Fetch one character
 
 Returns a character based on a slug parameter.
 
-#### Endpoint
+##### Endpoint
 
 | Method | URL                | Authorization |
 |--------|--------------------|---------------|
 | GET    | /characters/{slug} | None          |
 
-#### Path Parameters
+##### Path Parameters
 
 | Name | Format | Required |
 |------|--------|----------|
 | slug | string | Yes      |
 
-#### Success Response
+##### Success Response
 
 | Status | Description | Format      |
 |--------|-------------|-------------|
 | 200    | OK          | JSON Object |
 
-#### Error Response
+##### Error Response
 
 | Status | Description | Format |
 |--------|-------------|--------|
 | 400    | Bad Request |        |
 
-#### Example Request
+##### Example Request
 
 `curl -X GET -H "Content-Type: application/json" https://adventure-time-api.herokuapp.com/api/v1/characters/princess-bubblegum`
 
-#### Example Success Response
+##### Example Success Response
 
 ```
 {
